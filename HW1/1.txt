@@ -1,0 +1,6 @@
+SELECT COUNT(*)
+INTO OUTFILE '/var/lib/mysql-files/1.sql'
+FROM search_trend
+WHERE cold > 0.2;
+
+sudo chmod  777 /etc/squid

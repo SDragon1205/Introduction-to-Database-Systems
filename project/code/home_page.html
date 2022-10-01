@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首頁</title>
+</head>
+<body>
+    <h2>首頁</h2>
+	<p><a href="/index.html">返回首頁</a></p>
+    <form action="search.php" method="POST">
+		<p>請選擇datetime範圍: </p>
+		<input type="datetime-local" class="date" id="date1" name="date1">
+		~
+		<input type="datetime-local" class="date" id="date2" name="date2">
+		<!-- <p>請輸入pressure範圍: </p> -->
+		<!-- <input type="number" name="pre1" step="0.1"> -->
+		<!-- ~ -->
+		<!-- <input type="number" name="pre2" step="0.1"> -->
+		<br><br>
+		<p>請輸入temp範圍: </p>
+		<input type="number" name="tem1" step="0.1">
+		~
+		<input type="number" name="tem2" step="0.1">
+		<br><br>
+		<p>請輸入humidity範圍: </p>
+		<input type="number" name="hum1" step="0.1">
+		~
+		<input type="number" name="hum2" step="0.1">
+		<br><br>
+		<p>請輸入wind_speed: </p>
+		<input type="text" name="spe">
+		<br><br>
+        <!-- <p>請選擇wind_dir： </p> -->
+        <!-- <select name="dir"> -->
+            <!-- <option value="">不選擇</option> -->
+            <!-- <option value="東,E">東,E</option> -->
+            <!-- <option value="西,W">西,W</option> -->
+            <!-- <option value="南,S">南,S</option> -->
+            <!-- <option value="北,N">北,N</option> -->
+            <!-- <option value="北北東,NNE">北北東,NNE</option> -->
+            <!-- <option value="東北東,ENE">東北東,ENE</option> -->
+            <!-- <option value="東南東,ESE">東南東,ESE</option> -->
+            <!-- <option value="南南東,SSE">南南東,SSE</option> -->
+            <!-- <option value="南南西,SSW">南南西,SSW</option> -->
+            <!-- <option value="西南西,WSW">西南西,WSW</option> -->
+            <!-- <option value="西北西,WNW">西北西,WNW</option> -->
+            <!-- <option value="北北西,NNW">北北西,NNW</option> -->
+            <!-- <option value="東北,NE">東北,NE</option> -->
+            <!-- <option value="東南,ES">東南,ES</option> -->
+            <!-- <option value="西南,WS">西南,WS</option> -->
+            <!-- <option value="西北,WN">西北,WN</option> -->
+            <!-- <option value="風向不定,Variable">風向不定,Variable</option> -->
+            <!-- <option value="靜風,Calm">靜風,Calm</option> -->
+        <!-- </select> -->
+        <!-- <br><br> -->
+		<p>請輸入precipitation: （也可以不輸入）</p>
+		<input type="text" name="pre">
+		<br><br>
+		<p>請輸入sunshine: （也可以不輸入）</p>
+		<input type="text" name="sun">
+		<br><br>
+		<input type="submit" value="確定">
+    </form>
+</body>
+</html>

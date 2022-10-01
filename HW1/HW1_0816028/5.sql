@@ -1,0 +1,13 @@
+Chungcheongnam-do	2020-06-28
+Chungcheongnam-do	2020-06-29
+Gyeongsangnam-do	2020-06-29
+Jeollabuk-do	2020-06-29
+Jeollanam-do	2020-06-29
+Busan	2020-06-30
+Chungcheongbuk-do	2020-06-30
+Chungcheongnam-do	2020-06-30
+Gangwon-do	2020-06-30
+Gyeongsangbuk-do	2020-06-30
+Gyeongsangnam-do	2020-06-30
+Jeollabuk-do	2020-06-30
+Jeollanam-do	2020-06-30
